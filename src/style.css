@@ -1,3 +1,48 @@
 body {
-    background: pink;
+    background: #faeeee;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 500px;
+
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1;
+    color: #BF4342;
+}
+
+
+h3 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #735751 ;
+    font-family: "Zen Maru Gothic", serif;
+}
+
+form {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.level {
+    padding: 16px;
+    border: 1px solid rgb(39, 33, 66, 0.5);
+    width: 100%;
+    font-size: 14px;
+    border-radius: 50px;
+    line-height: 20px;
+    color:#735751;
 }
