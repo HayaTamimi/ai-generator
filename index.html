@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
@@ -18,18 +19,21 @@
 </header>
 
 <main>
-    <form id="input-form">
-        <input type="text" placeholder="Write your JLPT level" 
+    <div class="main-form"><form id="input-form">
+        <input type="text" placeholder="Write your JLPT level for example N5" 
         autofocus
         required 
         autocomplete="off"
-        class="level">
+        class="level"
+        id="user-level">
         <input type="submit" class="submit-button">
     </form>  
+</div>
+    
 <div class="questions" id="questions"></div>
 
 </main>
-<footer>    This page was codded by <a href="https://github.com/HayaTamimi">きれいな魂</a> ✨
+<footer>    This Al project was coded by <a href="https://github.com/HayaTamimi">きれいな魂</a>, <a href="https://github.com/HayaTamimi/ai-generator">on Github</a> & hosted on <a href="https://jp-ai-generator.netlify.app/">Netlify</a> ✨
 </footer></div>
 <script src="src/index.js"></script>
 </body>
